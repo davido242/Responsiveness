@@ -1,6 +1,5 @@
 * {
 	box-sizing: border-box;
-
 }
 
 body {
@@ -8,8 +7,9 @@ body {
 	padding: 0;
 	background-color: grey;
 }
+
 .header {
-	width: 100% 100%;
+	width: 100%;
 	background-color: tomato;
 	height: 200px;
 }
@@ -37,7 +37,6 @@ body {
 
 .left1 img{
 	width: 100%;
-
 }
 
 .right2 {
@@ -51,7 +50,6 @@ body {
 
 }
 
-
 .biggest8 {
 	height: 300px;
 	width: 100%;
@@ -60,9 +58,8 @@ body {
 	border: 5px solid green;
 }
 
-/*Media Querry*/
-
-@media and only screen (min-width: 800px)
+/*Media Query*/
+@media screen and (min-width: 800px)
 {
 	.right2{
 		background-color: white;
